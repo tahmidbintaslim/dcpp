@@ -3,34 +3,34 @@
         "definitions" : [
             {
                 "column" : 7,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
+                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/classes/LinearRegression.h",
                 "kind" : 2,
-                "line" : 12,
+                "line" : 11,
                 "name" : "LinearRegression",
                 "parent_name" : "",
                 "usr" : "c:@C@LinearRegression"
             },
             {
                 "column" : 8,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
+                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/classes/LinearRegression.h",
                 "kind" : 7,
-                "line" : 22,
+                "line" : 21,
                 "name" : "trainAlgorithm(int, double, double)",
                 "parent_name" : "LinearRegression",
                 "usr" : "c:@C@LinearRegression@F@trainAlgorithm#I#d#d#"
             },
             {
                 "column" : 10,
-                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
+                "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/classes/LinearRegression.h",
                 "kind" : 7,
-                "line" : 59,
+                "line" : 58,
                 "name" : "regress(double)",
                 "parent_name" : "LinearRegression",
                 "usr" : "c:@C@LinearRegression@F@regress#d#"
             }
         ],
-        "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
-        "file_last_write" : 1521404990
+        "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/classes/LinearRegression.h",
+        "file_last_write" : 1521405582
     },
     {
         "definitions" : [
@@ -45,7 +45,7 @@
             }
         ],
         "file" : "/Users/freddydrennan/Documents/programming/rProjects/dcpp/src/dcpp_LinearRegression.cpp",
-        "file_last_write" : 1521404969
+        "file_last_write" : 1521405630
     },
     {
         "definitions" : [

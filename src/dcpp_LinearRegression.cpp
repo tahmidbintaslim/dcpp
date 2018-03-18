@@ -1,4 +1,4 @@
-#include "LinearRegression.h"
+#include "classes/LinearRegression.h"
 
 // [[Rcpp::export]]
 double dcpp_LinearRegression (const std::vector<double>& x, 

@@ -1,5 +1,4 @@
 // Implements linear regression using gradient descent. 
-
 #include <iostream>
 #include <vector>
 #include <tuple>
