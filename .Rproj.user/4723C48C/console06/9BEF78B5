@@ -630,3 +630,93 @@ nothing added to commit but untracked files present
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/fdrennan/dcpp.git'
 ]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git commit -m 'first commit'
+[master (root-commit) 688b144] first commit
+ 66 files changed, 1921 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/4723C48C/build_options
+ create mode 100644 .Rproj.user/4723C48C/console06/9BEF78B5
+ create mode 100644 .Rproj.user/4723C48C/console06/9BEF78B5.env
+ create mode 100644 .Rproj.user/4723C48C/console06/INDEX001
+ create mode 100644 .Rproj.user/4723C48C/cpp-complilation-config
+ create mode 100644 .Rproj.user/4723C48C/cpp-definition-cache
+ create mode 100644 .Rproj.user/4723C48C/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/4723C48C/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/4723C48C/persistent-state
+ create mode 100644 .Rproj.user/4723C48C/rmd-outputs
+ create mode 100644 .Rproj.user/4723C48C/saved_source_markers
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/1020C31B
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/268FD4B
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/361130
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/46F05FD5
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/88F8B4B4
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/B9BCBD7A
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/E5176066
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/E7A2DFA2
+ create mode 100644 .Rproj.user/4723C48C/sources/prop/INDEX
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/4E01810-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/62B0F128-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/8810C2C4-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/AEFA9A74-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/B119ABEF
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/B119ABEF-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/C14966D
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/C14966D-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/D784037B
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/D784037B-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/F02179B6
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/F02179B6-contents
+ create mode 100644 .Rproj.user/4723C48C/sources/s-1A2C0C8D/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/RcppExports.R
+ create mode 100644 R/r_functions.R
+ create mode 100644 README.md
+ create mode 100644 benchmarks.R
+ create mode 100644 dcpp.Rproj
+ create mode 100755 inst/linear_regression/a.out
+ create mode 100644 inst/linear_regression/linear_regression.cpp
+ create mode 100644 inst/linear_regression/split/LinearRegression.cpp
+ create mode 100644 inst/linear_regression/split/LinearRegression.h
+ create mode 100755 inst/linear_regression/split/a.out
+ create mode 100644 man/dcpp-package.Rd
+ create mode 100644 man/rcpp_hello_world.Rd
+ create mode 100644 src/LinearRegression.h
+ create mode 100644 src/RcppExports.cpp
+ create mode 100644 src/RcppExports.o
+ create mode 100755 src/dcpp.so
+ create mode 100644 src/dcpp_LinearRegression.cpp
+ create mode 100644 src/dcpp_LinearRegression.o
+ create mode 100644 src/dcpp_fib.cpp
+ create mode 100644 src/dcpp_fib.o
+ create mode 100644 src/dcpp_slope.cpp
+ create mode 100644 src/dcpp_slope.o
+ create mode 100644 src/dcpp_sum.cpp
+ create mode 100644 src/dcpp_sum.o
+ create mode 100644 src/rcpp_hello_world.cpp
+ create mode 100644 src/rcpp_hello_world.o
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m (master)[0m$ git push origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': git remote add origin git@github.com:fdrennan/dcpp.git
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://git remote add origin git@github.com:fdrennan/dcpp.git@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/fdrennan/dcpp.git/'
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git remote add ori gin git@github.com:fdrennan/dcpp.git
+fatal: remote origin already exists.
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git remote add ori gin git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[1P git@github.com:fdrennan/dcpp.git[C[C[1P git@github.com:fdrennan/dcpp.git[C[1P git@github.com:fdrennan/dcpp.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C g[1Pit@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C gi[1Pt@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C git[1P@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@[1Pgithub.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C git@g[1Pithub.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C git@gi[1Pthub.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C git@git[1Phub.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[Cgit@gith[1Pub.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C git@githu[1Pb.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C git@github[1P.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C git@github.[1Pcom:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C git@github.c[1Pom:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C git@github.co[1Pm:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C git@github.com[1P:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[Cgit@github.com:[1Pfdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C git@github.com:f[1Pdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C git@github.com:fd[1Prennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C git@github.com:fdr[1Pennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ g git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [Ci git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[Ct git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[Cr git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[Ce git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[Cm git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[Co git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[Ct git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[Ce git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[Cs git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[Ce git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C- git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr git@github.com:fdrennan/dcpp.git[A[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl git@github.com:fdrennan/dcpp.git[C git@github.com:fdrennan/dcpp.git[Co git@github.com:fdrennan/dcpp.git[C[Cr git@github.com:fdrennan/dcpp.git[C[C[Ci git@github.com:fdrennan/dcpp.git[C[C[C[Cg git@github.com:fdrennan/dcpp.git[C[C[C[C[Ci git@github.com:fdrennan/dcpp.git[C[C[C[C[C[Cn git@github.com:fdrennan/dcpp.git[C[C[C[C[C[C[C
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git push origin ma ster
+Counting objects: 74, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/67)   Compressing objects:   2% (2/67)   Compressing objects:   4% (3/67)   Compressing objects:   5% (4/67)   Compressing objects:   7% (5/67)   Compressing objects:   8% (6/67)   Compressing objects:  10% (7/67)   Compressing objects:  11% (8/67)   Compressing objects:  13% (9/67)   Compressing objects:  14% (10/67)   Compressing objects:  16% (11/67)   Compressing objects:  17% (12/67)   Compressing objects:  19% (13/67)   Compressing objects:  20% (14/67)   Compressing objects:  22% (15/67)   Compressing objects:  23% (16/67)   Compressing objects:  25% (17/67)   Compressing objects:  26% (18/67)   Compressing objects:  28% (19/67)   Compressing objects:  29% (20/67)   Compressing objects:  31% (21/67)   Compressing objects:  32% (22/67)   Compressing objects:  34% (23/67)   Compressing objects:  35% (24/67)   Compressing objects:  37% (25/67)   Compressing objects:  38% (26/67)   Compressing objects:  40% (27/67)   Compressing objects:  41% (28/67)   Compressing objects:  43% (29/67)   Compressing objects:  44% (30/67)   Compressing objects:  46% (31/67)   Compressing objects:  47% (32/67)   Compressing objects:  49% (33/67)   Compressing objects:  50% (34/67)   Compressing objects:  52% (35/67)   Compressing objects:  53% (36/67)   Compressing objects:  55% (37/67)   Compressing objects:  56% (38/67)   Compressing objects:  58% (39/67)   Compressing objects:  59% (40/67)   Compressing objects:  61% (41/67)   Compressing objects:  62% (42/67)   Compressing objects:  64% (43/67)   Compressing objects:  65% (44/67)   Compressing objects:  67% (45/67)   Compressing objects:  68% (46/67)   Compressing objects:  70% (47/67)   Compressing objects:  71% (48/67)   Compressing objects:  73% (49/67)   Compressing objects:  74% (50/67)   Compressing objects:  76% (51/67)   Compressing objects:  77% (52/67)   Compressing objects:  79% (53/67)   Compressing objects:  80% (54/67)   Compressing objects:  82% (55/67)   Compressing objects:  83% (56/67)   Compressing objects:  85% (57/67)   Compressing objects:  86% (58/67)   Compressing objects:  88% (59/67)   Compressing objects:  89% (60/67)   Compressing objects:  91% (61/67)   Compressing objects:  92% (62/67)   Compressing objects:  94% (63/67)   Compressing objects:  95% (64/67)   Compressing objects:  97% (65/67)   Compressing objects:  98% (66/67)   Compressing objects: 100% (67/67)   Compressing objects: 100% (67/67), done.
+Writing objects:   1% (1/74)   Writing objects:   2% (2/74)   Writing objects:   4% (3/74)   Writing objects:   5% (4/74)   Writing objects:   6% (5/74)   Writing objects:   8% (6/74)   Writing objects:   9% (7/74)   Writing objects:  10% (8/74)   Writing objects:  12% (9/74)   Writing objects:  13% (10/74)   Writing objects:  14% (11/74)   Writing objects:  16% (12/74)   Writing objects:  17% (13/74)   Writing objects:  18% (14/74)   Writing objects:  20% (15/74)   Writing objects:  21% (16/74)   Writing objects:  22% (17/74)   Writing objects:  24% (18/74)   Writing objects:  25% (19/74)   Writing objects:  27% (20/74)   Writing objects:  28% (21/74)   Writing objects:  29% (22/74)   Writing objects:  31% (23/74)   Writing objects:  32% (24/74)   Writing objects:  33% (25/74)   Writing objects:  35% (26/74)   Writing objects:  36% (27/74)   Writing objects:  37% (28/74)   Writing objects:  39% (29/74)   Writing objects:  40% (30/74)   Writing objects:  41% (31/74)   Writing objects:  43% (32/74)   Writing objects:  44% (33/74)   Writing objects:  45% (34/74)   Writing objects:  47% (35/74)   Writing objects:  48% (36/74)   Writing objects:  50% (37/74)   Writing objects:  51% (38/74)   Writing objects:  52% (39/74)   Writing objects:  54% (40/74)   Writing objects:  55% (41/74)   Writing objects:  56% (42/74)   Writing objects:  58% (43/74)   Writing objects:  59% (44/74)   Writing objects:  60% (45/74)   Writing objects:  62% (46/74)   Writing objects:  63% (47/74)   Writing objects:  64% (48/74)   Writing objects:  66% (49/74)   Writing objects:  67% (50/74)   Writing objects:  68% (51/74)   Writing objects:  70% (52/74)   Writing objects:  71% (53/74)   Writing objects:  72% (54/74)   Writing objects:  74% (55/74)   Writing objects:  77% (57/74)   Writing objects:  78% (58/74)   Writing objects:  79% (59/74)   Writing objects:  81% (60/74)   Writing objects:  82% (61/74)   Writing objects:  83% (62/74)   Writing objects:  85% (63/74)   Writing objects:  86% (64/74)   Writing objects:  87% (65/74)   Writing objects:  89% (66/74)   Writing objects:  90% (67/74)   Writing objects:  91% (68/74)   Writing objects:  93% (69/74)   Writing objects:  95% (71/74)   Writing objects:  97% (72/74)   Writing objects:  98% (73/74)   Writing objects: 100% (74/74)   Writing objects: 100% (74/74), 336.94 KiB | 0 bytes/s, done.
+Total 74 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), done.[K
+To github.com:fdrennan/dcpp.git
+ * [new branch]      master -> master
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ [K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git add --all
