@@ -67,3 +67,20 @@ fibR <- function(x) {
     return(fibR(x-1) + fibR(x-2))
   }
 }
+
+
+#' Gives the sum of a vector
+#'
+#' @description
+#' \code{meanR()} Runs the same function as dcpp_fibonacci but in the R language. 
+#'
+#' @param x   
+#'
+#' @export fibarr
+fibarr <- function(x) {
+  if(x <= 1) {
+    return(x)
+  } else {
+    return(fibR(x-1) + fibR(x-2))
+  }
+}
