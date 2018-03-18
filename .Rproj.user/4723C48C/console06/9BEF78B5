@@ -811,3 +811,48 @@ error: Your local changes to the following files would be overwritten by checkou
 Please commit your changes or stash them before you switch branches.
 Aborting
 ]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git add --all
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git commit -m 'update gitigno re;
+> '
+[master 96082c6] update gitignore;
+ 3 files changed, 20 insertions(+), 1 deletion(-)
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git push origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.24 KiB | 0 bytes/s, done.
+Total 10 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+git To github.com:fdrennan/dcpp.git
+   278192e..96082c6  master -> master
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git branch
+* [32mmaster[m
+  namespacing[m
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git branch -D namespacing
+Deleted branch namespacing (was 9b111a8).
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git checkout -b namespacing
+M	.Rproj.user/4723C48C/console06/9BEF78B5
+Switched to a new branch 'namespacing'
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (namespacing)[0m$ git checkout master
+M	.Rproj.user/4723C48C/console06/9BEF78B5
+Switched to branch 'master'
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git checkout namespacing
+M	.Rproj.user/4723C48C/console06/9BEF78B5
+Switched to branch 'namespacing'
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (namespacing)[0m$ git checkout master
+M	.Rproj.user/4723C48C/console06/9BEF78B5
+Switched to branch 'master'
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git branch 
+* [32mmaster[m
+  namespacing[m
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git branch -D namespacing
+Deleted branch namespacing (was 96082c6).
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ cat .gitignore
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+src/*.o
+src/*.so
+src/*.dll
+.Rproj.user
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m (master)[0m$ git checko[K[K[K[K[K[K[K[K[K[Kgit add --all
