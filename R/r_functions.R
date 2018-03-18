@@ -76,8 +76,8 @@ fibR <- function(x) {
 #'
 #' @param x   
 #'
-#' @export fibarr
-fibarr <- function(x) {
+#' @export fibar
+fibar <- function(x) {
   if(x <= 1) {
     return(x)
   } else {
