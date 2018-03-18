@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521404982930.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2592952009",
+    "id" : "F02179B6",
+    "lastKnownWriteTime" : 1521404990,
+    "last_content_update" : 1521404990495,
+    "path" : "~/Documents/programming/rProjects/dcpp/src/LinearRegression.h",
+    "project_path" : "src/LinearRegression.h",
+    "properties" : {
+        "cursorPosition" : "71,2",
+        "scrollLine" : "51",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "h"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521404843967.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "922916701",
+    "id" : "D784037B",
+    "lastKnownWriteTime" : 1521404860,
+    "last_content_update" : 1521404860144,
+    "path" : "~/Documents/programming/rProjects/dcpp/benchmarks.R",
+    "project_path" : "benchmarks.R",
+    "properties" : {
+        "cursorPosition" : "21,1",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

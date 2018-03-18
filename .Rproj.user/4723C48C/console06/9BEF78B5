@@ -1,0 +1,632 @@
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ [K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ ls
+DESCRIPTION	R		dcpp.Rproj	src
+NAMESPACE	dcpp		man
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd dcpp
+total 56
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:24 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:24 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 18 14:24 .gitignore
+-rw-r--r--   1 freddydrennan  staff   314B Mar 18 14:24 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff   151B Mar 18 14:24 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 14:24 README.md
+-rw-r--r--   1 freddydrennan  staff   428B Mar 18 14:24 benchmarks.R
+-rw-r--r--   1 freddydrennan  staff   342B Mar 18 14:24 dcpp.Rproj
+drwxr-xr-x   7 freddydrennan  staff   238B Mar 18 14:24 [34mman[39;49m[0m/
+drwxr-xr-x  10 freddydrennan  staff   340B Mar 18 14:24 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ cd src[K[K[Kinst
+bash: cd: inst: No such file or directory
+total 56
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:24 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:24 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 18 14:24 .gitignore
+-rw-r--r--   1 freddydrennan  staff   314B Mar 18 14:24 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff   151B Mar 18 14:24 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 14:24 README.md
+-rw-r--r--   1 freddydrennan  staff   428B Mar 18 14:24 benchmarks.R
+-rw-r--r--   1 freddydrennan  staff   342B Mar 18 14:24 dcpp.Rproj
+drwxr-xr-x   7 freddydrennan  staff   238B Mar 18 14:24 [34mman[39;49m[0m/
+drwxr-xr-x  10 freddydrennan  staff   340B Mar 18 14:24 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ cd ..
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:24 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd dcpp
+total 56
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:24 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:24 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 18 14:24 .gitignore
+-rw-r--r--   1 freddydrennan  staff   314B Mar 18 14:24 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff   151B Mar 18 14:24 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 14:24 README.md
+-rw-r--r--   1 freddydrennan  staff   428B Mar 18 14:24 benchmarks.R
+-rw-r--r--   1 freddydrennan  staff   342B Mar 18 14:24 dcpp.Rproj
+drwxr-xr-x   7 freddydrennan  staff   238B Mar 18 14:24 [34mman[39;49m[0m/
+drwxr-xr-x  10 freddydrennan  staff   340B Mar 18 14:24 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ cd ..
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:24 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ ls
+DESCRIPTION	R		dcpp.Rproj	src
+NAMESPACE	dcpp		man
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd ..
+total 88
+-rw-r--r--@   1 freddydrennan  staff    36K Mar 18 09:43 .DS_Store
+drwxr-xr-x   10 freddydrennan  staff   340B Dec 17 12:40 [34mDesktopDeployR[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Feb  7 13:38 [34mRStudio-keynote[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Aug 23  2017 [34mRTBplots[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Nov 25 22:57 [34mairfare[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 11 14:13 [34mairplanes[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Oct 14 16:41 [34mamazon_web[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Nov  6 08:51 [34manimal_outcomes[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Dec 12 11:42 [34mappliedPredictive[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 23 11:11 [34mbeer_height[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Oct 12 12:52 [34mbible[39;49m[0m/
+drwxr-xr-x   23 freddydrennan  staff   782B Mar 12 22:36 [34mbnb[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan 21 12:12 [34mcashFlowMatching[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  5 23:20 [34mchurn[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 15 14:44 [34mclasses[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 10 20:29 [34mcloudera[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct  6 17:26 [34mconditionalPanel[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Mar 17 14:30 [34mcpp[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Feb 25 09:20 [34mcpp_course[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  5 23:21 [34mcredit_card[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Mar  5 23:21 [34mcredit_fraud[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Dec 13 10:14 [34mcross_optimization[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Nov 17 14:20 [34mdailySRT[39;49m[0m/
+drwxr-xr-x   24 freddydrennan  staff   816B Mar  4 16:50 [34mdaily_srt[39;49m[0m/
+drwxr-xr-x   50 freddydrennan  staff   1.7K Oct  2 11:52 [34mdataAggApp[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan 14 12:04 [34mdataPreProcessing[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Sep 19 12:24 [34mdataWrangling[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Dec 23 08:41 [34mdata_explorer[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Jan 20 21:01 [34mdata_scripts[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Jan  8 13:59 [34mdatabasetoxml[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 14:08 [34mdb_to_xml[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Mar 18 14:24 [34mdcpp[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Feb 24 14:44 [34mdeep-learning-with-r-notebooks[39;49m[0m/
+drwxr-xr-x    4 freddydrennan  staff   136B Feb 14 13:58 [34mdefault[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar 17 14:30 [34mdrencpp[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Mar  7 06:46 [34mdrentools[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Dec 26 09:10 [34meda[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Jan 30 11:32 [34mexcel_combiner[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Mar  7 11:33 [34mfdrennan[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Aug 14  2017 [34mfirstProject[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Sep 12  2017 [34mgTrends[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  8 14:51 [34mgithub[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar  4 16:49 [34mhealthcare[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Oct 14 10:11 [34mhouse_prices[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 14:53 [34mhow_to_github[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Sep 21 16:23 [34mhrAnalytics[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  1 21:49 [34mindian_startup[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Oct 29 16:27 [34mjavascript[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Feb  5 17:22 [34mkeras-customer-churn[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Feb 24 16:30 [34mlearn_cpp[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 16 09:34 [34mlearningR[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Dec  7 15:28 [34mlpSelect[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  8 20:51 [34mmachLearn[39;49m[0m/
+drwxr-xr-x   70 freddydrennan  staff   2.3K Mar  5 23:21 [34mmagellanLP[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Feb  6 10:01 [34mmagellanOMNI[39;49m[0m/
+drwxr-xr-x   20 freddydrennan  staff   680B Mar 17 16:16 [34mmagellanR[39;49m[0m/
+drwxr-xr-x   23 freddydrennan  staff   782B Dec 11 14:02 [34mmagellanSRT[39;49m[0m/
+drwxr-xr-x   22 freddydrennan  staff   748B Feb 21 10:36 [34mmagellanTD[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Oct 15 19:23 [34mmass_shooting[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 29 06:39 [34mmatrixAlgebra[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Mar  4 16:49 [34mmeyers[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Sep  5  2017 [34mmlData[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Jan 14 12:04 [34mmnist_nn[39;49m[0m/
+drwxr-xr-x   28 freddydrennan  staff   952B Oct  8 19:52 [34mmodernBehavioralStatistics[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Aug 21  2017 [34mmodernStatistics[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Jan 21 09:31 [34mmongo[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 19 08:07 [34mmongo_db[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Jan 24 10:20 [34mmongoquery[39;49m[0m/
+drwxr-xr-x   64 freddydrennan  staff   2.1K Mar 16 08:13 [34mmultiple_model[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan 14 12:06 [34mnerualnets[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Dec  1 06:42 [34mneuralNetwork[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 18 13:41 [34mneural_net[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Jan 23 00:13 [34mneuralnets[39;49m[0m/
+drwxr-xr-x   26 freddydrennan  staff   884B Mar  4 16:50 [34moptimization[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Dec  7 15:28 [34moptimizationHealth[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  3 11:21 [34mpacingApplication[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  1 16:12 [34mpoliceShootings[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Oct  5 21:52 [34mprophet[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Jan 20 18:29 [34mpython[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  8 14:26 [34mquick_github[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov  5 14:19 [34mr_classes[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Feb 25 16:26 [34mrandom[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Nov 27 13:39 [34mrdata[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Mar  5 23:20 [34mredshifting[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov 14 14:28 [34mregression[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar 12 08:15 [34mrjava[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 15 15:51 [34mrpostgres[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Mar  4 16:49 [34msafe_driver[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Sep 21 15:38 [34msample[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Dec 14 18:16 [34mscrapeJs[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Dec 11 16:34 [34msearch_redshift[39;49m[0m/
+drwxr-xr-x   20 freddydrennan  staff   680B Mar  4 16:49 [34msentimentAnalysis[39;49m[0m/
+drwxr-xr-x  122 freddydrennan  staff   4.1K Oct 15 19:19 [34mshiny-examples[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Jan  8 15:38 [34mshiny_knn[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Oct 15 19:26 [34mshootings[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Dec 10 11:37 [34msmote[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 11 15:23 [34msparklyr[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Jan 21 16:28 [34mstats[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Nov 25 22:27 [34mstorms[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Nov 25 22:34 [34mstorms_dplyr[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Oct 15 19:20 [34msuperzip[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Oct 21 23:00 [34mtidy_quant_app[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 12 12:52 [34mtidyquant[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 12:43 [34mtidyquantExamples[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Aug 16  2017 [34mtidyverse[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Jan 10 12:04 [34mtracker[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Jan 20 13:26 [34mtrumpTweets[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov 10 09:29 [34mtutorials[39;49m[0m/
+-rw-r--r--    1 freddydrennan  staff   133B Sep  5  2017 updateAgg.txt
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  6 22:41 [34mweather[39;49m[0m/
+drwxr-xr-x   31 freddydrennan  staff   1.0K Jan 23 11:58 [34mwebsite[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Nov 25 22:26 [34mwebtools[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Oct 11 14:38 [34mwordcloud[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Oct 21 09:11 [34mzillow[39;49m[0m/
+]0;~/Documents/programming/rProjects[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects[0;33m[0m$ ls
+DesktopDeployR			mass_shooting
+RStudio-keynote			matrixAlgebra
+RTBplots			meyers
+airfare				mlData
+airplanes			mnist_nn
+amazon_web			modernBehavioralStatistics
+animal_outcomes			modernStatistics
+appliedPredictive		mongo
+beer_height			mongo_db
+bible				mongoquery
+bnb				multiple_model
+cashFlowMatching		nerualnets
+churn				neuralNetwork
+classes				neural_net
+cloudera			neuralnets
+conditionalPanel		optimization
+cpp				optimizationHealth
+cpp_course			pacingApplication
+credit_card			policeShootings
+credit_fraud			prophet
+cross_optimization		python
+dailySRT			quick_github
+daily_srt			r_classes
+dataAggApp			random
+dataPreProcessing		rdata
+dataWrangling			redshifting
+data_explorer			regression
+data_scripts			rjava
+databasetoxml			rpostgres
+db_to_xml			safe_driver
+dcpp				sample
+deep-learning-with-r-notebooks	scrapeJs
+default				search_redshift
+drencpp				sentimentAnalysis
+drentools			shiny-examples
+eda				shiny_knn
+excel_combiner			shootings
+fdrennan			smote
+firstProject			sparklyr
+gTrends				stats
+github				storms
+healthcare			storms_dplyr
+house_prices			superzip
+how_to_github			tidy_quant_app
+hrAnalytics			tidyquant
+indian_startup			tidyquantExamples
+javascript			tidyverse
+keras-customer-churn		tracker
+learn_cpp			trumpTweets
+learningR			tutorials
+lpSelect			updateAgg.txt
+machLearn			weather
+magellanLP			website
+magellanOMNI			webtools
+magellanR			wordcloud
+magellanSRT			zillow
+magellanTD
+]0;~/Documents/programming/rProjects[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects[0;33m[0m$ cd dcpp
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:24 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ ls
+DESCRIPTION	R		dcpp.Rproj	src
+NAMESPACE	dcpp		man
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd dcpp
+total 56
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:24 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:24 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 18 14:24 .gitignore
+-rw-r--r--   1 freddydrennan  staff   314B Mar 18 14:24 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff   151B Mar 18 14:24 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:24 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 14:24 README.md
+-rw-r--r--   1 freddydrennan  staff   428B Mar 18 14:24 benchmarks.R
+-rw-r--r--   1 freddydrennan  staff   342B Mar 18 14:24 dcpp.Rproj
+drwxr-xr-x   7 freddydrennan  staff   238B Mar 18 14:24 [34mman[39;49m[0m/
+drwxr-xr-x  10 freddydrennan  staff   340B Mar 18 14:24 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ cd ..
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:24 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ ls
+DESCRIPTION	R		dcpp.Rproj	src
+NAMESPACE	dcpp		man
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ git branch
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd ..
+total 88
+-rw-r--r--@   1 freddydrennan  staff    36K Mar 18 09:43 .DS_Store
+drwxr-xr-x   10 freddydrennan  staff   340B Dec 17 12:40 [34mDesktopDeployR[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Feb  7 13:38 [34mRStudio-keynote[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Aug 23  2017 [34mRTBplots[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Nov 25 22:57 [34mairfare[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 11 14:13 [34mairplanes[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Oct 14 16:41 [34mamazon_web[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Nov  6 08:51 [34manimal_outcomes[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Dec 12 11:42 [34mappliedPredictive[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 23 11:11 [34mbeer_height[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Oct 12 12:52 [34mbible[39;49m[0m/
+drwxr-xr-x   23 freddydrennan  staff   782B Mar 12 22:36 [34mbnb[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan 21 12:12 [34mcashFlowMatching[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  5 23:20 [34mchurn[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 15 14:44 [34mclasses[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 10 20:29 [34mcloudera[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct  6 17:26 [34mconditionalPanel[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Mar 17 14:30 [34mcpp[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Feb 25 09:20 [34mcpp_course[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  5 23:21 [34mcredit_card[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Mar  5 23:21 [34mcredit_fraud[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Dec 13 10:14 [34mcross_optimization[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Nov 17 14:20 [34mdailySRT[39;49m[0m/
+drwxr-xr-x   24 freddydrennan  staff   816B Mar  4 16:50 [34mdaily_srt[39;49m[0m/
+drwxr-xr-x   50 freddydrennan  staff   1.7K Oct  2 11:52 [34mdataAggApp[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan 14 12:04 [34mdataPreProcessing[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Sep 19 12:24 [34mdataWrangling[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Dec 23 08:41 [34mdata_explorer[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Jan 20 21:01 [34mdata_scripts[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Jan  8 13:59 [34mdatabasetoxml[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 14:08 [34mdb_to_xml[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Mar 18 14:24 [34mdcpp[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Feb 24 14:44 [34mdeep-learning-with-r-notebooks[39;49m[0m/
+drwxr-xr-x    4 freddydrennan  staff   136B Feb 14 13:58 [34mdefault[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar 17 14:30 [34mdrencpp[39;49m[0m/
+drwxr-xr-x   19 freddydrennan  staff   646B Mar  7 06:46 [34mdrentools[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Dec 26 09:10 [34meda[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Jan 30 11:32 [34mexcel_combiner[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Mar  7 11:33 [34mfdrennan[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Aug 14  2017 [34mfirstProject[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Sep 12  2017 [34mgTrends[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  8 14:51 [34mgithub[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar  4 16:49 [34mhealthcare[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Oct 14 10:11 [34mhouse_prices[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 14:53 [34mhow_to_github[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Sep 21 16:23 [34mhrAnalytics[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Mar  1 21:49 [34mindian_startup[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Oct 29 16:27 [34mjavascript[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Feb  5 17:22 [34mkeras-customer-churn[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Feb 24 16:30 [34mlearn_cpp[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 16 09:34 [34mlearningR[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Dec  7 15:28 [34mlpSelect[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  8 20:51 [34mmachLearn[39;49m[0m/
+drwxr-xr-x   70 freddydrennan  staff   2.3K Mar  5 23:21 [34mmagellanLP[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Feb  6 10:01 [34mmagellanOMNI[39;49m[0m/
+drwxr-xr-x   20 freddydrennan  staff   680B Mar 17 16:16 [34mmagellanR[39;49m[0m/
+drwxr-xr-x   23 freddydrennan  staff   782B Dec 11 14:02 [34mmagellanSRT[39;49m[0m/
+drwxr-xr-x   22 freddydrennan  staff   748B Feb 21 10:36 [34mmagellanTD[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Oct 15 19:23 [34mmass_shooting[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Nov 29 06:39 [34mmatrixAlgebra[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Mar  4 16:49 [34mmeyers[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Sep  5  2017 [34mmlData[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Jan 14 12:04 [34mmnist_nn[39;49m[0m/
+drwxr-xr-x   28 freddydrennan  staff   952B Oct  8 19:52 [34mmodernBehavioralStatistics[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Aug 21  2017 [34mmodernStatistics[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Jan 21 09:31 [34mmongo[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 19 08:07 [34mmongo_db[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Jan 24 10:20 [34mmongoquery[39;49m[0m/
+drwxr-xr-x   64 freddydrennan  staff   2.1K Mar 16 08:13 [34mmultiple_model[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan 14 12:06 [34mnerualnets[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Dec  1 06:42 [34mneuralNetwork[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 18 13:41 [34mneural_net[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Jan 23 00:13 [34mneuralnets[39;49m[0m/
+drwxr-xr-x   26 freddydrennan  staff   884B Mar  4 16:50 [34moptimization[39;49m[0m/
+drwxr-xr-x   18 freddydrennan  staff   612B Dec  7 15:28 [34moptimizationHealth[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  3 11:21 [34mpacingApplication[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Oct  1 16:12 [34mpoliceShootings[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Oct  5 21:52 [34mprophet[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Jan 20 18:29 [34mpython[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  8 14:26 [34mquick_github[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov  5 14:19 [34mr_classes[39;49m[0m/
+drwxr-xr-x   17 freddydrennan  staff   578B Feb 25 16:26 [34mrandom[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Nov 27 13:39 [34mrdata[39;49m[0m/
+drwxr-xr-x   11 freddydrennan  staff   374B Mar  5 23:20 [34mredshifting[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov 14 14:28 [34mregression[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Mar 12 08:15 [34mrjava[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 15 15:51 [34mrpostgres[39;49m[0m/
+drwxr-xr-x    9 freddydrennan  staff   306B Mar  4 16:49 [34msafe_driver[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Sep 21 15:38 [34msample[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Dec 14 18:16 [34mscrapeJs[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Dec 11 16:34 [34msearch_redshift[39;49m[0m/
+drwxr-xr-x   20 freddydrennan  staff   680B Mar  4 16:49 [34msentimentAnalysis[39;49m[0m/
+drwxr-xr-x  122 freddydrennan  staff   4.1K Oct 15 19:19 [34mshiny-examples[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Jan  8 15:38 [34mshiny_knn[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Oct 15 19:26 [34mshootings[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Dec 10 11:37 [34msmote[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Mar 11 15:23 [34msparklyr[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Jan 21 16:28 [34mstats[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Nov 25 22:27 [34mstorms[39;49m[0m/
+drwxr-xr-x   12 freddydrennan  staff   408B Nov 25 22:34 [34mstorms_dplyr[39;49m[0m/
+drwxr-xr-x   10 freddydrennan  staff   340B Oct 15 19:20 [34msuperzip[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Oct 21 23:00 [34mtidy_quant_app[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Oct 12 12:52 [34mtidyquant[39;49m[0m/
+drwxr-xr-x    8 freddydrennan  staff   272B Jan  8 12:43 [34mtidyquantExamples[39;49m[0m/
+drwxr-xr-x    6 freddydrennan  staff   204B Aug 16  2017 [34mtidyverse[39;49m[0m/
+drwxr-xr-x   13 freddydrennan  staff   442B Jan 10 12:04 [34mtracker[39;49m[0m/
+drwxr-xr-x   16 freddydrennan  staff   544B Jan 20 13:26 [34mtrumpTweets[39;49m[0m/
+drwxr-xr-x    5 freddydrennan  staff   170B Nov 10 09:29 [34mtutorials[39;49m[0m/
+-rw-r--r--    1 freddydrennan  staff   133B Sep  5  2017 updateAgg.txt
+drwxr-xr-x    5 freddydrennan  staff   170B Jan  6 22:41 [34mweather[39;49m[0m/
+drwxr-xr-x   31 freddydrennan  staff   1.0K Jan 23 11:58 [34mwebsite[39;49m[0m/
+drwxr-xr-x   14 freddydrennan  staff   476B Nov 25 22:26 [34mwebtools[39;49m[0m/
+drwxr-xr-x   15 freddydrennan  staff   510B Oct 11 14:38 [34mwordcloud[39;49m[0m/
+drwxr-xr-x    7 freddydrennan  staff   238B Oct 21 09:11 [34mzillow[39;49m[0m/
+]0;~/Documents/programming/rProjects[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects[0;33m[0m$ ls
+DesktopDeployR			mass_shooting
+RStudio-keynote			matrixAlgebra
+RTBplots			meyers
+airfare				mlData
+airplanes			mnist_nn
+amazon_web			modernBehavioralStatistics
+animal_outcomes			modernStatistics
+appliedPredictive		mongo
+beer_height			mongo_db
+bible				mongoquery
+bnb				multiple_model
+cashFlowMatching		nerualnets
+churn				neuralNetwork
+classes				neural_net
+cloudera			neuralnets
+conditionalPanel		optimization
+cpp				optimizationHealth
+cpp_course			pacingApplication
+credit_card			policeShootings
+credit_fraud			prophet
+cross_optimization		python
+dailySRT			quick_github
+daily_srt			r_classes
+dataAggApp			random
+dataPreProcessing		rdata
+dataWrangling			redshifting
+data_explorer			regression
+data_scripts			rjava
+databasetoxml			rpostgres
+db_to_xml			safe_driver
+dcpp				sample
+deep-learning-with-r-notebooks	scrapeJs
+default				search_redshift
+drencpp				sentimentAnalysis
+drentools			shiny-examples
+eda				shiny_knn
+excel_combiner			shootings
+fdrennan			smote
+firstProject			sparklyr
+gTrends				stats
+github				storms
+healthcare			storms_dplyr
+house_prices			superzip
+how_to_github			tidy_quant_app
+hrAnalytics			tidyquant
+indian_startup			tidyquantExamples
+javascript			tidyverse
+keras-customer-churn		tracker
+learn_cpp			trumpTweets
+learningR			tutorials
+lpSelect			updateAgg.txt
+machLearn			weather
+magellanLP			website
+magellanOMNI			webtools
+magellanR			wordcloud
+magellanSRT			zillow
+magellanTD
+]0;~/Documents/programming/rProjects[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects[0;33m[0m$ cd dcpp
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:24 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ rm -rf dcpp
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ ls
+DESCRIPTION	R		man
+NAMESPACE	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ git clone https://githu b.com/fdrennan/dcpp.git
+Cloning into 'dcpp'...
+remote: Counting objects: 357, done.[K
+remote: Compressing objects:   0% (1/189)   [Kremote: Compressing objects:   1% (2/189)   [Kremote: Compressing objects:   2% (4/189)   [Kremote: Compressing objects:   3% (6/189)   [Kremote: Compressing objects:   4% (8/189)   [Kremote: Compressing objects:   5% (10/189)   [Kremote: Compressing objects:   6% (12/189)   [Kremote: Compressing objects:   7% (14/189)   [Kremote: Compressing objects:   8% (16/189)   [Kremote: Compressing objects:   9% (18/189)   [Kremote: Compressing objects:  10% (19/189)   [Kremote: Compressing objects:  11% (21/189)   [Kremote: Compressing objects:  12% (23/189)   [Kremote: Compressing objects:  13% (25/189)   [Kremote: Compressing objects:  14% (27/189)   [Kremote: Compressing objects:  15% (29/189)   [Kremote: Compressing objects:  16% (31/189)   [Kremote: Compressing objects:  17% (33/189)   [Kremote: Compressing objects:  18% (35/189)   [Kremote: Compressing objects:  19% (36/189)   [Kremote: Compressing objects:  20% (38/189)   [Kremote: Compressing objects:  21% (40/189)   [Kremote: Compressing objects:  22% (42/189)   [Kremote: Compressing objects:  23% (44/189)   [Kremote: Compressing objects:  24% (46/189)   [Kremote: Compressing objects:  25% (48/189)   [Kremote: Compressing objects:  26% (50/189)   [Kremote: Compressing objects:  27% (52/189)   [Kremote: Compressing objects:  28% (53/189)   [Kremote: Compressing objects:  29% (55/189)   [Kremote: Compressing objects:  30% (57/189)   [Kremote: Compressing objects:  31% (59/189)   [Kremote: Compressing objects:  32% (61/189)   [Kremote: Compressing objects:  33% (63/189)   [Kremote: Compressing objects:  34% (65/189)   [Kremote: Compressing objects:  35% (67/189)   [Kremote: Compressing objects:  36% (69/189)   [Kremote: Compressing objects:  37% (70/189)   [Kremote: Compressing objects:  38% (72/189)   [Kremote: Compressing objects:  39% (74/189)   [Kremote: Compressing objects:  40% (76/189)   [Kremote: Compressing objects:  41% (78/189)   [Kremote: Compressing objects:  42% (80/189)   [Kremote: Compressing objects:  43% (82/189)   [Kremote: Compressing objects:  44% (84/189)   [Kremote: Compressing objects:  45% (86/189)   [Kremote: Compressing objects:  46% (87/189)   [Kremote: Compressing objects:  47% (89/189)   [Kremote: Compressing objects:  48% (91/189)   [Kremote: Compressing objects:  49% (93/189)   [Kremote: Compressing objects:  50% (95/189)   [Kremote: Compressing objects:  51% (97/189)   [Kremote: Compressing objects:  52% (99/189)   [Kremote: Compressing objects:  53% (101/189)   [Kremote: Compressing objects:  54% (103/189)   [Kremote: Compressing objects:  55% (104/189)   [Kremote: Compressing objects:  56% (106/189)   [Kremote: Compressing objects:  57% (108/189)   [Kremote: Compressing objects:  58% (110/189)   [Kremote: Compressing objects:  59% (112/189)   [Kremote: Compressing objects:  60% (114/189)   [Kremote: Compressing objects:  61% (116/189)   [Kremote: Compressing objects:  62% (118/189)   [Kremote: Compressing objects:  63% (120/189)   [Kremote: Compressing objects:  64% (121/189)   [Kremote: Compressing objects:  65% (123/189)   [Kremote: Compressing objects:  66% (125/189)   [Kremote: Compressing objects:  67% (127/189)   [Kremote: Compressing objects:  68% (129/189)   [Kremote: Compressing objects:  69% (131/189)   [Kremote: Compressing objects:  70% (133/189)   [Kremote: Compressing objects:  71% (135/189)   [Kremote: Compressing objects:  72% (137/189)   [Kremote: Compressing objects:  73% (138/189)   [Kremote: Compressing objects:  74% (140/189)   [Kremote: Compressing objects:  75% (142/189)   [Kremote: Compressing objects:  76% (144/189)   [Kremote: Compressing objects:  77% (146/189)   [Kremote: Compressing objects:  78% (148/189)   [Kremote: Compressing objects:  79% (150/189)   [Kremote: Compressing objects:  80% (152/189)   [Kremote: Compressing objects:  81% (154/189)   [Kremote: Compressing objects:  82% (155/189)   [Kremote: Compressing objects:  83% (157/189)   [Kremote: Compressing objects:  84% (159/189)   [Kremote: Compressing objects:  85% (161/189)   [Kremote: Compressing objects:  86% (163/189)   [Kremote: Compressing objects:  87% (165/189)   [Kremote: Compressing objects:  88% (167/189)   [Kremote: Compressing objects:  89% (169/189)   [Kremote: Compressing objects:  90% (171/189)   [Kremote: Compressing objects:  91% (172/189)   [Kremote: Compressing objects:  92% (174/189)   [Kremote: Compressing objects:  93% (176/189)   [Kremote: Compressing objects:  94% (178/189)   [Kremote: Compressing objects:  95% (180/189)   [Kremote: Compressing objects:  96% (182/189)   [Kremote: Compressing objects:  97% (184/189)   [Kremote: Compressing objects:  98% (186/189)   [Kremote: Compressing objects:  99% (188/189)   [Kremote: Compressing objects: 100% (189/189)   [Kremote: Compressing objects: 100% (189/189), done.[K
+Receiving objects:   0% (1/357)   Receiving objects:   1% (4/357)   Receiving objects:   2% (8/357)   Receiving objects:   3% (11/357)   Receiving objects:   4% (15/357)   Receiving objects:   5% (18/357)   Receiving objects:   6% (22/357)   Receiving objects:   7% (25/357)   Receiving objects:   8% (29/357)   Receiving objects:   9% (33/357)   Receiving objects:  10% (36/357)   Receiving objects:  11% (40/357)   Receiving objects:  12% (43/357)   Receiving objects:  13% (47/357)   Receiving objects:  14% (50/357)   Receiving objects:  15% (54/357)   Receiving objects:  16% (58/357)   Receiving objects:  17% (61/357)   Receiving objects:  18% (65/357)   Receiving objects:  19% (68/357)   Receiving objects:  20% (72/357)   Receiving objects:  21% (75/357)   Receiving objects:  22% (79/357)   Receiving objects:  23% (83/357)   Receiving objects:  24% (86/357)   Receiving objects:  25% (90/357)   Receiving objects:  26% (93/357)   Receiving objects:  27% (97/357)   Receiving objects:  28% (100/357)   Receiving objects:  29% (104/357)   Receiving objects:  30% (108/357)   Receiving objects:  31% (111/357)   Receiving objects:  32% (115/357)   Receiving objects:  33% (118/357)   Receiving objects:  34% (122/357)   Receiving objects:  35% (125/357)   Receiving objects:  36% (129/357)   Receiving objects:  37% (133/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  38% (136/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  39% (140/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  40% (143/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  41% (147/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  42% (150/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  43% (154/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  44% (158/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  45% (161/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  46% (165/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  47% (168/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  48% (172/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  49% (175/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  50% (179/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  51% (183/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  52% (186/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  53% (190/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  54% (193/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  55% (197/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  56% (200/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  56% (201/357), 236.00 KiB | 439.00 KiB/s   Receiving objects:  57% (204/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  58% (208/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  59% (211/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  60% (215/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  61% (218/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  62% (222/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  63% (225/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  64% (229/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  65% (233/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  66% (236/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  67% (240/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  68% (243/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  69% (247/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  70% (250/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  71% (254/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  72% (258/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  73% (261/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  74% (265/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  75% (268/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  76% (272/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  77% (275/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  78% (279/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  79% (283/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  80% (286/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  81% (290/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  82% (293/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  83% (297/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  84% (300/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  85% (304/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  86% (308/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  87% (311/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  88% (315/357), 556.00 KiB | 535.00 KiB/s   Receiving objects:  89% (318/357), 556.00 KiB | 535.00 KiB/s   remote: Total 357 (delta 169), reused 323 (delta 136), pack-reused 0[K
+Receiving objects:  90% (322/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  91% (325/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  92% (329/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  93% (333/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  94% (336/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  95% (340/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  96% (343/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  97% (347/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  98% (350/357), 980.00 KiB | 637.00 KiB/s   Receiving objects:  99% (354/357), 980.00 KiB | 637.00 KiB/s   Receiving objects: 100% (357/357), 980.00 KiB | 637.00 KiB/s   Receiving objects: 100% (357/357), 1006.78 KiB | 637.00 KiB/s, done.
+Resolving deltas:   0% (0/169)   Resolving deltas:   3% (6/169)   Resolving deltas:   6% (11/169)   Resolving deltas:  12% (21/169)   Resolving deltas:  14% (25/169)   Resolving deltas:  17% (30/169)   Resolving deltas:  18% (31/169)   Resolving deltas:  26% (44/169)   Resolving deltas:  32% (55/169)   Resolving deltas:  33% (56/169)   Resolving deltas:  37% (63/169)   Resolving deltas:  44% (75/169)   Resolving deltas:  45% (77/169)   Resolving deltas:  46% (78/169)   Resolving deltas:  50% (85/169)   Resolving deltas:  51% (87/169)   Resolving deltas:  52% (88/169)   Resolving deltas:  53% (91/169)   Resolving deltas:  54% (92/169)   Resolving deltas:  56% (95/169)   Resolving deltas:  59% (100/169)   Resolving deltas:  61% (104/169)   Resolving deltas:  66% (112/169)   Resolving deltas:  67% (114/169)   Resolving deltas:  68% (115/169)   Resolving deltas:  69% (117/169)   Resolving deltas:  70% (119/169)   Resolving deltas:  78% (133/169)   Resolving deltas:  79% (134/169)   Resolving deltas:  85% (144/169)   Resolving deltas:  90% (153/169)   Resolving deltas:  91% (155/169)   Resolving deltas:  92% (157/169)   Resolving deltas:  93% (158/169)   Resolving deltas:  94% (160/169)   Resolving deltas:  95% (161/169)   Resolving deltas: 100% (169/169)   Resolving deltas: 100% (169/169), done.
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ cd dcpp
+total 56
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:25 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:25 [34m.Rproj.user[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:25 [34m.git[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff    67B Mar 18 14:25 .gitignore
+-rw-r--r--   1 freddydrennan  staff   314B Mar 18 14:25 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff   151B Mar 18 14:25 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:25 [34mR[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   1.2K Mar 18 14:25 README.md
+-rw-r--r--   1 freddydrennan  staff   428B Mar 18 14:25 benchmarks.R
+-rw-r--r--   1 freddydrennan  staff   342B Mar 18 14:25 dcpp.Rproj
+drwxr-xr-x   7 freddydrennan  staff   238B Mar 18 14:25 [34mman[39;49m[0m/
+drwxr-xr-x  10 freddydrennan  staff   340B Mar 18 14:25 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ git branc h
+* [32mmaster[m
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ git pull  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kg[Kfetch  origin dren-lm
+fatal: Couldn't find remote ref dren-lm
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ git fetch  origin dren-lm[Kr
+From https://github.com/fdrennan/dcpp
+ * branch            dren-lr    -> FETCH_HEAD
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ ls
+DESCRIPTION	R		benchmarks.R	man
+NAMESPACE	README.md	dcpp.Rproj	src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (master)[0m$ git check out dren-lr
+Branch dren-lr set up to track remote branch dren-lr from origin.
+Switched to a new branch 'dren-lr'
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ ls
+DESCRIPTION	R		benchmarks.R	inst		src
+NAMESPACE	README.md	dcpp.Rproj	man
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ ls ../.. /
+DesktopDeployR			mass_shooting
+RStudio-keynote			matrixAlgebra
+RTBplots			meyers
+airfare				mlData
+airplanes			mnist_nn
+amazon_web			modernBehavioralStatistics
+animal_outcomes			modernStatistics
+appliedPredictive		mongo
+beer_height			mongo_db
+bible				mongoquery
+bnb				multiple_model
+cashFlowMatching		nerualnets
+churn				neuralNetwork
+classes				neural_net
+cloudera			neuralnets
+conditionalPanel		optimization
+cpp				optimizationHealth
+cpp_course			pacingApplication
+credit_card			policeShootings
+credit_fraud			prophet
+cross_optimization		python
+dailySRT			quick_github
+daily_srt			r_classes
+dataAggApp			random
+dataPreProcessing		rdata
+dataWrangling			redshifting
+data_explorer			regression
+data_scripts			rjava
+databasetoxml			rpostgres
+db_to_xml			safe_driver
+dcpp				sample
+deep-learning-with-r-notebooks	scrapeJs
+default				search_redshift
+drencpp				sentimentAnalysis
+drentools			shiny-examples
+eda				shiny_knn
+excel_combiner			shootings
+fdrennan			smote
+firstProject			sparklyr
+gTrends				stats
+github				storms
+healthcare			storms_dplyr
+house_prices			superzip
+how_to_github			tidy_quant_app
+hrAnalytics			tidyquant
+indian_startup			tidyquantExamples
+javascript			tidyverse
+keras-customer-churn		tracker
+learn_cpp			trumpTweets
+learningR			tutorials
+lpSelect			updateAgg.txt
+machLearn			weather
+magellanLP			website
+magellanOMNI			webtools
+magellanR			wordcloud
+magellanSRT			zillow
+magellanTD
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ [K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ ls ../../[K[K[K
+DESCRIPTION	NAMESPACE	R		dcpp		dcpp.Rproj	man		src
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ ls ../[1P ../[1P ../m ../v ../[C ../i ../n ../s ../t ../[C[C[C[Cinst
+inst -> ../inst
+]0;~/Documents/programming/rProjects/dcpp/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp/dcpp[0;33m (dren-lr)[0m$ cd ..
+total 32
+-rw-r--r--   1 freddydrennan  staff    28B Mar 18 14:20 .Rbuildignore
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34m.Rproj.user[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   335B Mar 18 14:20 DESCRIPTION
+-rw-r--r--   1 freddydrennan  staff    93B Mar 18 14:20 NAMESPACE
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:22 [34mR[39;49m[0m/
+drwxr-xr-x  14 freddydrennan  staff   476B Mar 18 14:25 [34mdcpp[39;49m[0m/
+-rw-r--r--   1 freddydrennan  staff   303B Mar 18 14:22 dcpp.Rproj
+drwxr-xr-x   3 freddydrennan  staff   102B Mar 18 14:25 [34minst[39;49m[0m/
+drwxr-xr-x   4 freddydrennan  staff   136B Mar 18 14:20 [34mman[39;49m[0m/
+drwxr-xr-x  13 freddydrennan  staff   442B Mar 18 14:22 [34msrc[39;49m[0m/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ rm dc[K[K-rf dcpp
+]0;~/Documents/programming/rProjects/dcpp[?1034h[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[0m$ [K[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcpp[0;33m[00m$ git init
+Initialized empty Git repository in /Users/freddydrennan/Documents/programming/rProjects/dcpp/.git/
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rbuildignore[m
+	[31m.Rproj.user/[m
+	[31mDESCRIPTION[m
+	[31mNAMESPACE[m
+	[31mR/[m
+	[31mREADME.md[m
+	[31mbenchmarks.R[m
+	[31mdcpp.Rproj[m
+	[31minst/[m
+	[31mman/[m
+	[31msrc/[m
+
+nothing added to commit but untracked files present
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git remote add origin https://github.com/fdrennan/dcpp.git
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/fdrennan/dcpp.git'
+]0;~/Documents/programming/rProjects/dcpp[0;32mfreddydrennan@MNG-IT-M-099[0m:~/Documents/programming/rProjects/dcppp[0;33m[0m$ git add --all
