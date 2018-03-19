@@ -10,13 +10,19 @@ microbenchmark(
 )
 
 microbenchmark(
-  b$coefficients[2], # To get slope, you build a linear model in R
+  lm(y~x)$coefficients[2], # To get slope, you build a linear model in R
   slopeR(x, y),      # Getting the slope written in R
-  dcpp_slope(x, y)   # Slope written in C++
+  dcpp_slope(x, y)   # Slope written in C++,
 )
 
 microbenchmark(
-  fibR(20),
-  dcpp_fib(20),
-  unit = 's'
+  # No such thing as fib in R
+  fibR(20), # My R function to calculate a fib series
+  dcpp_fib(20) # My C++ function to calculate a fib series 
+)
+
+microbenchmark(
+  max(x),
+  maxR(x),
+  dcpp_max(x)
 )

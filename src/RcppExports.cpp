@@ -28,6 +28,17 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_max
+double dcpp_max(const std::vector<double>& x);
+RcppExport SEXP _dcpp_dcpp_max(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_max(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_slope
 double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y);
 RcppExport SEXP _dcpp_dcpp_slope(SEXP xSEXP, SEXP ySEXP) {
@@ -65,6 +76,7 @@ END_RCPP
 static const R_CallMethodDef CallEntries[] = {
     {"_dcpp_dcpp_fib", (DL_FUNC) &_dcpp_dcpp_fib, 1},
     {"_dcpp_dcpp_LinearRegression", (DL_FUNC) &_dcpp_dcpp_LinearRegression, 2},
+    {"_dcpp_dcpp_max", (DL_FUNC) &_dcpp_dcpp_max, 1},
     {"_dcpp_dcpp_slope", (DL_FUNC) &_dcpp_dcpp_slope, 2},
     {"_dcpp_dcpp_sum", (DL_FUNC) &_dcpp_dcpp_sum, 1},
     {"_dcpp_rcpp_hello_world", (DL_FUNC) &_dcpp_rcpp_hello_world, 0},

@@ -9,6 +9,10 @@ dcpp_LinearRegression <- function(x, y) {
     .Call(`_dcpp_dcpp_LinearRegression`, x, y)
 }
 
+dcpp_max <- function(x) {
+    .Call(`_dcpp_dcpp_max`, x)
+}
+
 dcpp_slope <- function(x, y) {
     .Call(`_dcpp_dcpp_slope`, x, y)
 }

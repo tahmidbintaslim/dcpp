@@ -67,3 +67,28 @@ fibR <- function(x) {
     return(fibR(x-1) + fibR(x-2))
   }
 }
+
+#' Gives the max of a vector
+#'
+#' @description
+#' \code{maxR()} Runs the same function as dcpp_max but in the R language. 
+#'
+#' @param vector 
+#'
+#' @export maxR
+maxR <-
+  function(vector) {
+    
+    result = vector(mode = "double", length = 1)
+    
+    for(i in seq_along(vector)) {
+      
+      if(result < vector[i]) {
+        result = vector[i]
+      }
+      
+    }
+    
+    result
+    
+  }
