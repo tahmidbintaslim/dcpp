@@ -24,6 +24,15 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_boost_chrono
+void dcpp_boost_chrono();
+RcppExport SEXP _dcpp_dcpp_boost_chrono() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    dcpp_boost_chrono();
+    return R_NilValue;
+END_RCPP
+}
 // dcpp_callWithOne
 RObject dcpp_callWithOne(Function f);
 RcppExport SEXP _dcpp_dcpp_callWithOne(SEXP fSEXP) {
@@ -43,6 +52,18 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type n(nSEXP);
     rcpp_result_gen = Rcpp::wrap(dcpp_fib(n));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_find_interval
+IntegerVector dcpp_find_interval(NumericVector x, NumericVector breaks);
+RcppExport SEXP _dcpp_dcpp_find_interval(SEXP xSEXP, SEXP breaksSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< NumericVector >::type breaks(breaksSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_find_interval(x, breaks));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -219,8 +240,10 @@ END_RCPP
 static const R_CallMethodDef CallEntries[] = {
     {"_dcpp_current_time", (DL_FUNC) &_dcpp_current_time, 0},
     {"_dcpp_dcpp_attribs", (DL_FUNC) &_dcpp_dcpp_attribs, 0},
+    {"_dcpp_dcpp_boost_chrono", (DL_FUNC) &_dcpp_dcpp_boost_chrono, 0},
     {"_dcpp_dcpp_callWithOne", (DL_FUNC) &_dcpp_dcpp_callWithOne, 1},
     {"_dcpp_dcpp_fib", (DL_FUNC) &_dcpp_dcpp_fib, 1},
+    {"_dcpp_dcpp_find_interval", (DL_FUNC) &_dcpp_dcpp_find_interval, 2},
     {"_dcpp_dcpp_fred", (DL_FUNC) &_dcpp_dcpp_fred, 2},
     {"_dcpp_dcpp_is_na_2", (DL_FUNC) &_dcpp_dcpp_is_na_2, 1},
     {"_dcpp_dcpp_is_na", (DL_FUNC) &_dcpp_dcpp_is_na, 1},

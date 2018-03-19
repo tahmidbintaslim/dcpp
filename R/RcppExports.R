@@ -9,12 +9,20 @@ dcpp_attribs <- function() {
     .Call(`_dcpp_dcpp_attribs`)
 }
 
+dcpp_boost_chrono <- function() {
+    invisible(.Call(`_dcpp_dcpp_boost_chrono`))
+}
+
 dcpp_callWithOne <- function(f) {
     .Call(`_dcpp_dcpp_callWithOne`, f)
 }
 
 dcpp_fib <- function(n) {
     .Call(`_dcpp_dcpp_fib`, n)
+}
+
+dcpp_find_interval <- function(x, breaks) {
+    .Call(`_dcpp_dcpp_find_interval`, x, breaks)
 }
 
 dcpp_fred <- function(x, y) {
