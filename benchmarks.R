@@ -21,6 +21,7 @@ microbenchmark(
   dcpp_fib(20) # My C++ function to calculate a fib series 
 )
 
+x = 1:10000
 microbenchmark(
   max(x),
   maxR(x),
