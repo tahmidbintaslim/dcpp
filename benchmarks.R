@@ -27,3 +27,16 @@ microbenchmark(
   maxR(x),
   dcpp_max(x)
 )
+
+mt_list <-
+  list(mtcars = mtcars, 
+       mtcars1 = mtcars)
+microbenchmark(
+  dcpp_lapply(mt_list, function(x) rowSums(x)),
+  lapply(mt_list, function(x) rowSums(x))
+)
+
+microbenchmark(
+  dcpp_mean(1:1000),
+  mean(1:1000)
+)

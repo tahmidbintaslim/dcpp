@@ -27,3 +27,7 @@ double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y) {
   
   return a;
 }
+
+/***R
+dcpp_slope(c(1,2,3), c(3,2,1))
+*/

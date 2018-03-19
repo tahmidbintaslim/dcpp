@@ -5,6 +5,36 @@
 
 using namespace Rcpp;
 
+// current_time
+void current_time();
+RcppExport SEXP _dcpp_current_time() {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    current_time();
+    return R_NilValue;
+END_RCPP
+}
+// dcpp_attribs
+NumericVector dcpp_attribs();
+RcppExport SEXP _dcpp_dcpp_attribs() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(dcpp_attribs());
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_callWithOne
+RObject dcpp_callWithOne(Function f);
+RcppExport SEXP _dcpp_dcpp_callWithOne(SEXP fSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< Function >::type f(fSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_callWithOne(f));
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_fib
 int dcpp_fib(int n);
 RcppExport SEXP _dcpp_dcpp_fib(SEXP nSEXP) {
@@ -13,6 +43,30 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type n(nSEXP);
     rcpp_result_gen = Rcpp::wrap(dcpp_fib(n));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_fred
+double dcpp_fred(const std::vector<double>& x, const std::vector<double>& y);
+RcppExport SEXP _dcpp_dcpp_fred(SEXP xSEXP, SEXP ySEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type x(xSEXP);
+    Rcpp::traits::input_parameter< const std::vector<double>& >::type y(ySEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_fred(x, y));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_lapply
+List dcpp_lapply(List input, Function f);
+RcppExport SEXP _dcpp_dcpp_lapply(SEXP inputSEXP, SEXP fSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< List >::type input(inputSEXP);
+    Rcpp::traits::input_parameter< Function >::type f(fSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_lapply(input, f));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -39,6 +93,71 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_mean
+double dcpp_mean(NumericVector x);
+RcppExport SEXP _dcpp_dcpp_mean(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_mean(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_missing_sampler
+List dcpp_missing_sampler();
+RcppExport SEXP _dcpp_dcpp_missing_sampler() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(dcpp_missing_sampler());
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_mpe
+double dcpp_mpe(List mod);
+RcppExport SEXP _dcpp_dcpp_mpe(SEXP modSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< List >::type mod(modSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_mpe(mod));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_pdist
+NumericVector dcpp_pdist(double x, NumericVector ys);
+RcppExport SEXP _dcpp_dcpp_pdist(SEXP xSEXP, SEXP ysSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< double >::type x(xSEXP);
+    Rcpp::traits::input_parameter< NumericVector >::type ys(ysSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_pdist(x, ys));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_rowSums
+NumericVector dcpp_rowSums(NumericMatrix x);
+RcppExport SEXP _dcpp_dcpp_rowSums(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericMatrix >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_rowSums(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_scalar_missings
+List dcpp_scalar_missings();
+RcppExport SEXP _dcpp_dcpp_scalar_missings() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(dcpp_scalar_missings());
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_slope
 double dcpp_slope(const std::vector<double>& x, const std::vector<double>& y);
 RcppExport SEXP _dcpp_dcpp_slope(SEXP xSEXP, SEXP ySEXP) {
@@ -62,24 +181,24 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _dcpp_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
-    return rcpp_result_gen;
-END_RCPP
-}
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_dcpp_current_time", (DL_FUNC) &_dcpp_current_time, 0},
+    {"_dcpp_dcpp_attribs", (DL_FUNC) &_dcpp_dcpp_attribs, 0},
+    {"_dcpp_dcpp_callWithOne", (DL_FUNC) &_dcpp_dcpp_callWithOne, 1},
     {"_dcpp_dcpp_fib", (DL_FUNC) &_dcpp_dcpp_fib, 1},
+    {"_dcpp_dcpp_fred", (DL_FUNC) &_dcpp_dcpp_fred, 2},
+    {"_dcpp_dcpp_lapply", (DL_FUNC) &_dcpp_dcpp_lapply, 2},
     {"_dcpp_dcpp_LinearRegression", (DL_FUNC) &_dcpp_dcpp_LinearRegression, 2},
     {"_dcpp_dcpp_max", (DL_FUNC) &_dcpp_dcpp_max, 1},
+    {"_dcpp_dcpp_mean", (DL_FUNC) &_dcpp_dcpp_mean, 1},
+    {"_dcpp_dcpp_missing_sampler", (DL_FUNC) &_dcpp_dcpp_missing_sampler, 0},
+    {"_dcpp_dcpp_mpe", (DL_FUNC) &_dcpp_dcpp_mpe, 1},
+    {"_dcpp_dcpp_pdist", (DL_FUNC) &_dcpp_dcpp_pdist, 2},
+    {"_dcpp_dcpp_rowSums", (DL_FUNC) &_dcpp_dcpp_rowSums, 1},
+    {"_dcpp_dcpp_scalar_missings", (DL_FUNC) &_dcpp_dcpp_scalar_missings, 0},
     {"_dcpp_dcpp_slope", (DL_FUNC) &_dcpp_dcpp_slope, 2},
     {"_dcpp_dcpp_sum", (DL_FUNC) &_dcpp_dcpp_sum, 1},
-    {"_dcpp_rcpp_hello_world", (DL_FUNC) &_dcpp_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
 
