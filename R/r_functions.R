@@ -92,3 +92,15 @@ maxR <-
     result
     
   }
+
+#' Gives the distance between values
+#'
+#' @description
+#' \code{pdistR_two()} Runs the same function as dcpp_pdist_two but in the R language. 
+#'
+#' @param vector 
+#'
+#' @export pdistR_two
+pdistR_two <- function(x, ys) {
+  sqrt((x - ys) ^ 2)
+}

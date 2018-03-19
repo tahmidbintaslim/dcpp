@@ -40,3 +40,18 @@ microbenchmark(
   dcpp_mean(1:1000),
   mean(1:1000)
 )
+
+na_vals <-
+  rep(NA, 1000)
+microbenchmark(
+  dcpp_is_na(na_vals),
+  is.na(na_vals),
+  dcpp_is_na_2(na_vals)
+)
+
+
+microbenchmark(
+  pdistR_two(5, 1:10),
+  dcpp_pdist_two(5, 1:10),
+  dcpp_pdist(5, 1:10)
+)

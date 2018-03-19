@@ -21,6 +21,14 @@ dcpp_fred <- function(x, y) {
     .Call(`_dcpp_dcpp_fred`, x, y)
 }
 
+dcpp_is_na_2 <- function(x) {
+    .Call(`_dcpp_dcpp_is_na_2`, x)
+}
+
+dcpp_is_na <- function(x) {
+    .Call(`_dcpp_dcpp_is_na`, x)
+}
+
 dcpp_lapply <- function(input, f) {
     .Call(`_dcpp_dcpp_lapply`, input, f)
 }
@@ -43,6 +51,10 @@ dcpp_missing_sampler <- function() {
 
 dcpp_mpe <- function(mod) {
     .Call(`_dcpp_dcpp_mpe`, mod)
+}
+
+dcpp_pdist_two <- function(x, ys) {
+    .Call(`_dcpp_dcpp_pdist_two`, x, ys)
 }
 
 dcpp_pdist <- function(x, ys) {

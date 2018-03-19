@@ -58,6 +58,28 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_is_na_2
+LogicalVector dcpp_is_na_2(NumericVector x);
+RcppExport SEXP _dcpp_dcpp_is_na_2(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_is_na_2(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// dcpp_is_na
+LogicalVector dcpp_is_na(NumericVector x);
+RcppExport SEXP _dcpp_dcpp_is_na(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_is_na(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_lapply
 List dcpp_lapply(List input, Function f);
 RcppExport SEXP _dcpp_dcpp_lapply(SEXP inputSEXP, SEXP fSEXP) {
@@ -125,6 +147,18 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_pdist_two
+NumericVector dcpp_pdist_two(double x, NumericVector ys);
+RcppExport SEXP _dcpp_dcpp_pdist_two(SEXP xSEXP, SEXP ysSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< double >::type x(xSEXP);
+    Rcpp::traits::input_parameter< NumericVector >::type ys(ysSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_pdist_two(x, ys));
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_pdist
 NumericVector dcpp_pdist(double x, NumericVector ys);
 RcppExport SEXP _dcpp_dcpp_pdist(SEXP xSEXP, SEXP ysSEXP) {
@@ -188,12 +222,15 @@ static const R_CallMethodDef CallEntries[] = {
     {"_dcpp_dcpp_callWithOne", (DL_FUNC) &_dcpp_dcpp_callWithOne, 1},
     {"_dcpp_dcpp_fib", (DL_FUNC) &_dcpp_dcpp_fib, 1},
     {"_dcpp_dcpp_fred", (DL_FUNC) &_dcpp_dcpp_fred, 2},
+    {"_dcpp_dcpp_is_na_2", (DL_FUNC) &_dcpp_dcpp_is_na_2, 1},
+    {"_dcpp_dcpp_is_na", (DL_FUNC) &_dcpp_dcpp_is_na, 1},
     {"_dcpp_dcpp_lapply", (DL_FUNC) &_dcpp_dcpp_lapply, 2},
     {"_dcpp_dcpp_LinearRegression", (DL_FUNC) &_dcpp_dcpp_LinearRegression, 2},
     {"_dcpp_dcpp_max", (DL_FUNC) &_dcpp_dcpp_max, 1},
     {"_dcpp_dcpp_mean", (DL_FUNC) &_dcpp_dcpp_mean, 1},
     {"_dcpp_dcpp_missing_sampler", (DL_FUNC) &_dcpp_dcpp_missing_sampler, 0},
     {"_dcpp_dcpp_mpe", (DL_FUNC) &_dcpp_dcpp_mpe, 1},
+    {"_dcpp_dcpp_pdist_two", (DL_FUNC) &_dcpp_dcpp_pdist_two, 2},
     {"_dcpp_dcpp_pdist", (DL_FUNC) &_dcpp_dcpp_pdist, 2},
     {"_dcpp_dcpp_rowSums", (DL_FUNC) &_dcpp_dcpp_rowSums, 1},
     {"_dcpp_dcpp_scalar_missings", (DL_FUNC) &_dcpp_dcpp_scalar_missings, 0},
