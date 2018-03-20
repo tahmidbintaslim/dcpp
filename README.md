@@ -24,3 +24,6 @@ Similar R code is located in the R folder. Each R function correlates with a giv
 
 ### Benchmarks 
 A folder called `benchmarks.R` is in the home directory and it has the different functions set up for speed tests. You can compare the performance of the functions there. 
+
+### Compiling a C++ application on Mac
+`#g++ -std=gnu++11 application.cpp`
