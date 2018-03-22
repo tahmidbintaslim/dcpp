@@ -21,11 +21,13 @@ microbenchmark(
   dcpp_fib(20) # My C++ function to calculate a fib series 
 )
 
-x = 1:10000
+x = 1:100000
 microbenchmark(
-  max(x),
-  maxR(x),
-  dcpp_max(x)
+  # max(x),
+  # maxR(x),
+  dcpp_max(x),
+  dcpp_max_noconst(x),
+  times = 100
 )
 
 mt_list <-

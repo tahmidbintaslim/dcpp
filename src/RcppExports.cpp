@@ -136,6 +136,17 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// dcpp_max_noconst
+double dcpp_max_noconst(std::vector<double> x);
+RcppExport SEXP _dcpp_dcpp_max_noconst(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< std::vector<double> >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(dcpp_max_noconst(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // dcpp_mean
 double dcpp_mean(NumericVector x);
 RcppExport SEXP _dcpp_dcpp_mean(SEXP xSEXP) {
@@ -250,6 +261,7 @@ static const R_CallMethodDef CallEntries[] = {
     {"_dcpp_dcpp_lapply", (DL_FUNC) &_dcpp_dcpp_lapply, 2},
     {"_dcpp_dcpp_LinearRegression", (DL_FUNC) &_dcpp_dcpp_LinearRegression, 2},
     {"_dcpp_dcpp_max", (DL_FUNC) &_dcpp_dcpp_max, 1},
+    {"_dcpp_dcpp_max_noconst", (DL_FUNC) &_dcpp_dcpp_max_noconst, 1},
     {"_dcpp_dcpp_mean", (DL_FUNC) &_dcpp_dcpp_mean, 1},
     {"_dcpp_dcpp_missing_sampler", (DL_FUNC) &_dcpp_dcpp_missing_sampler, 0},
     {"_dcpp_dcpp_mpe", (DL_FUNC) &_dcpp_dcpp_mpe, 1},

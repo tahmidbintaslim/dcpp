@@ -49,6 +49,10 @@ dcpp_max <- function(x) {
     .Call(`_dcpp_dcpp_max`, x)
 }
 
+dcpp_max_noconst <- function(x) {
+    .Call(`_dcpp_dcpp_max_noconst`, x)
+}
+
 dcpp_mean <- function(x) {
     .Call(`_dcpp_dcpp_mean`, x)
 }
